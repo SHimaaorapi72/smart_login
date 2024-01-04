@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../signUp/css/main.css">
+    
+
+</head>
+<body>
+    <div class="input-container mt-5 w-75 m-auto ">
+        <div class="input-content">
+        <div class="input-dist">
+            <div class="input-type">
+                <h1 class="text-center text-white mt-5 mb-4">Smart Login System</h1>
+            <input class="input-is mb-2 " id="nameInput" type="text" required="" placeholder="Enter your name" />
+            <p id="userNameAlert" class="d-none text-danger text-center">your name must include at least 3 letters</p>
+            <input class="input-is mb-2" id="emailInput" type="email" required="" placeholder="Enter your email" />
+            <p id="userEmailAlert" class="d-none text-danger text-center">name@example.com</p>
+            <input
+                class="input-is  mb-2"
+                id="passwordInput"
+                type="password"
+                required=""
+                placeholder="Enter your Password"/>
+                <p id="userPasswordAlert" class="d-none text-danger text-center">Minimum eight characters, at least one letter and one number</p>
+                <p class=" text-center text-danger text-center" id="message"></p>
+                <p class="center d-none text-center" id="AletMessage"></p>
+                
+            </div>
+        </div>
+        </div>
+    
+    <div class="component d-flex flex-column justify-content-center align-items-center">
+        <button class="submit-button mb-3" id="signupBtn">sign Up</button>
+        <p class="text-white ">You have an account? <a class="text-white text-decoration-none" href="../login/index.html">Signin</a></p>
+        </div>
+    </div>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../signUp/js/main.js"></script>
+</body>
+</html>
